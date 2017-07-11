@@ -1,4 +1,4 @@
-# shared-preferences-builder
+# shared-preferences-builder [![Build Status](https://travis-ci.org/vrunoa/shared-preferences-builder.svg?branch=master)](https://travis-ci.org/vrunoa/shared-preferences-builder)
 Android Shared Preferences builder
 
 # Usage
