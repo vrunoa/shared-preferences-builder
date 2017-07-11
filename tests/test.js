@@ -75,7 +75,7 @@ describe('SharedPrefsBuilder', _ => {
     done()
   })
   it('toFile', (done) => {
-    let filename = path.join('/tmp', (new Date()).getTime())
+    let filename = path.join('/tmp', 'temp.xml')
     prefs.build([{'type': 'string', name: 'str', value: 'im a string'}])
     prefs.toFile(filename)
     let stat = fs.statSync(filename)
