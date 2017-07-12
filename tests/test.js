@@ -1,7 +1,9 @@
-import { TYPES, SharedPrefsBuilder } from '../lib/'
-import chai from 'chai'
-import fs from 'fs'
-import path from 'path'
+let lib = require('../lib/')
+const TYPES = lib.TYPES
+let SharedPrefsBuilder = lib.SharedPrefsBuilder
+let chai = require('chai')
+let fs = require('fs')
+let path = require('path')
 
 chai.should()
 
