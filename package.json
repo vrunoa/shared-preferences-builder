@@ -3,6 +3,10 @@
   "version": "0.0.4",
   "description": "",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vrunoa/shared-preferences-builder.git"
+  },
   "scripts": {
     "pretest": "standard",
     "test": "./node_modules/mocha/bin/mocha tests/test.js -t 15s",
